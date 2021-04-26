@@ -4,7 +4,7 @@ import categoryDAO from '../DAO/categoryDAO';
 
 function create(context) {
     async function query() {
-        let result = categoryDAO.query();
+        let result = await categoryDAO.query();
         if (result) {
             return result;
         }
