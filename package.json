@@ -1,0 +1,28 @@
+{
+  "name": "webApp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "Dariusz Piwko",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-es2015": "6.24.1",
+    "bluebird": "3.5.3",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "jsonwebtoken": "8.4.0",
+    "lodash": "4.17.11",
+    "moment": "2.22.2",
+    "mongodb": "3.1.10",
+    "mongoose": "5.3.13",
+    "mongoose-unique-validator": "2.0.2",
+    "morgan": "1.9.1",
+    "sha1": "1.1.1"
+  }
+}
